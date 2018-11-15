@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kip/hw/main.cpp
+iostream
+-
+string
+-
+stdio.h
+-
+time.h
+-
+stdlib.h
+-
+unistd.h
+-
+cstdio
+-
+iostream
+-
+memory
+-
+stdexcept
+-
+array
+-
+
